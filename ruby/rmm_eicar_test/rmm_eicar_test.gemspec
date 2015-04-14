@@ -13,9 +13,9 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
   end
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A Test gem with a harmless payload that should get flagged up by A-V systems}
+  spec.description   = %q{Part of the testing libs that I'm doing for various things relating to library security.  This one includes the EICAR test file which is a harmless file that should be picked up by A-V systems.}
+  spec.homepage      = "https://github.com/raesene/test_libs"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
