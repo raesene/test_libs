@@ -1,4 +1,13 @@
 # test_libs
-Some Test Libraries.  Do Not Install them, they will likely do bad things to your system :)
+Some test Libraries for a presentation on development security.
 
-Seriously don't install these here or on the package sites, it's not a good idea
+These are likely (depending on what I'm testing) to do bad things to systems that they are installed on .
+
+So don't install them, really.
+
+For more information about why these exist please see http://raesene.github.io/blog/2015/03/01/software-library-repositories-and-security/
+
+Any questions, just ask me
+
+twitter - @raesene
+email - rorym@mccune.org.uk
