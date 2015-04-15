@@ -38,4 +38,4 @@ builder = Rack::Builder.new do
   end
 
 end
-Rack::Handler::Thin.run builder, {:Port => 9292, :Host => '0.0.0.0'}
+Rack::Handler::Thin.run builder, {:Port => 80, :Host => '0.0.0.0'}
