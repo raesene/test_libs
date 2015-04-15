@@ -9,9 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Rory McCune"]
   spec.email         = ["rorym@mccune.org.uk"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
 
   spec.summary       = %q{A Test gem with a harmless payload that should get flagged up by A-V systems}
   spec.description   = %q{Part of the testing libs that I'm doing for various things relating to library security.  This one includes the EICAR test file which is a harmless file that should be picked up by A-V systems.}
