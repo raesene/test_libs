@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: rmmtest1
+Version: 0.1
+Summary: A Test Library that does not do anything
+Home-page: https://github.com/raesene/test_libs
+Author: Rory McCune
+Author-email: raesene@gmail.com
+License: MIT
+Download-URL: https://github.com/raesene/test_libs
+Description: UNKNOWN
+Platform: UNKNOWN

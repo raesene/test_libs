@@ -1,0 +1,8 @@
+README.rst
+setup.py
+rmmtest1/__init__.py
+rmmtest1.egg-info/PKG-INFO
+rmmtest1.egg-info/SOURCES.txt
+rmmtest1.egg-info/dependency_links.txt
+rmmtest1.egg-info/requires.txt
+rmmtest1.egg-info/top_level.txt
