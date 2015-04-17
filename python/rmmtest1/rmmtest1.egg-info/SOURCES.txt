@@ -1,5 +1,9 @@
+MANIFEST.in
 README.rst
 setup.py
+data/eicar.com.txt
+data/eicar_com.zip
+data/eicarcom2.zip
 rmmtest1/__init__.py
 rmmtest1.egg-info/PKG-INFO
 rmmtest1.egg-info/SOURCES.txt

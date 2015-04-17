@@ -32,6 +32,28 @@ builder = Rack::Builder.new do
     end
     run app
   end
+
+  map '/python_no_way_you_got_here_randomly' do
+    app = proc do |env|
+      req = Rack::Request.new(env) 
+      info = 'Python, ' + req.ip.to_s + ", " + DateTime.now.to_s + ',' + req.user_agent
+      @@logger.info(info)
+      @@ets << info
+      [200, {"Content-Type" => "text/html"}, ["you got a response"]]
+    end
+    run app
+  end
+
+  map '/ASP_no_way_you_got_here_randomly' do
+    app = proc do |env|
+      req = Rack::Request.new(env) 
+      info = 'Ruby, ' + req.ip.to_s + ", " + DateTime.now.to_s + ',' + req.user_agent
+      @@logger.info(info)
+      @@ets << info
+      [200, {"Content-Type" => "text/html"}, ["you got a response"]]
+    end
+    run app
+  end
  
   map '/alien_stats' do
     app = proc do |env|
